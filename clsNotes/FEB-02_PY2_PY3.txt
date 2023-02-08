@@ -62,7 +62,7 @@
 
 
 PY2 vs Py3
-================
+===========
 - Py2 has complicated syntax , lot of libraries is not there.
 - Python3 was incomplicated with Python2 
 - Python3 in print and strings representation(UNICODE)
@@ -94,7 +94,7 @@ PY2 vs Py3
 		
 		
 		a = 10 --> 1010
-		b = 20 --> 
+		b = 20.5 --> 
 		print(a+b)
 		
 		
@@ -120,4 +120,49 @@ PY2 vs Py3
 		is a Valid?
 		
 			
+
+PY2 vs PY3
+====================
+1. PY2 stores strings : ASCII(8bit) --> 2^8 : 256 characters
+   PY3 stored strings: UNICODE(16bit) -->2^16: 65,536 characters.
+   
+2. PY3 : shorter syntax compared to Py2
+
+3. print "hello world" --> PY2(statement)
+   print("hello world") --->Py3(method)
+
+4. raw_input()  --> PY2
+   input()    --> PY3
+   
+5. Interger Division 
+	a = 10/3 -3-> Integer Quotient : Py2
+	a = 10/3 -3.33-> extact Quotient : Py3
 	
+6. Libraries Support Py2 is very less compared Py3
+
+7. next() functions 
+
+
+integer --> 1, 2 , -2
+floating --> 1.2 , -2.22
+complex ---> 1+2j
+boolean ---> True False
+strings ---> anything double quotes or single quotes is a string
+			'kumar'
+			"kumar@1234"
+			'a'
+			'10'
+			"27&*#)(@(#("
+			
+			"हैलो वर्ल्ड"
+			
+
+## GIT COMMAND ############
+
+git clone -b Anjali --single-branch https://github.com/anil-k-rajamoni18/Python-Discussion.git
+
+git status
+git add . 
+git add fileName
+git commit -m "added new file"
+git push Anjali
