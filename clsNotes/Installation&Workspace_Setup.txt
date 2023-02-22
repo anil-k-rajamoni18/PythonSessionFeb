@@ -117,12 +117,12 @@ CLONING Repo
 
 3. GETTING NEW CHANGES from next time.
 	
-	a. open Terminal/Gitbash and change path to orgPython/PythonSessionJan
+	a. open Terminal/Gitbash and change path to orgPython/PythonSessionFeb
 	b. Do following commands 
 		git status --> nothing to commit 
 		
 		git pull
-	c. copy and paste 'PythonSessionJan' the cloned floder from orgPython -->myPython 
+	c. copy and paste 'PythonSessionFeb' the cloned floder from orgPython -->myPython 
 		
 note: 
 ===============

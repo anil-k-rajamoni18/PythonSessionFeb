@@ -60,6 +60,8 @@
 		operations on two numbers.
 
 
+-hello
+_hello
 
 PY2 vs Py3
 ===========

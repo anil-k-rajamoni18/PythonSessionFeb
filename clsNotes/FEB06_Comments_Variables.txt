@@ -1,12 +1,30 @@
+##LAST SESSIONS##
+- Programming languages INTRO
+	types
+- PYTHON INTRO (what,why,applications)
+- Ways to run Python CODE
+- WorkSpace SetUP
+-  Jupyter notebook intro 
+- PY2 vs Py3  & Python Syntax 
+- print() method 
+- comments
+
+
 ##TODAY ###
 
 PREBUILD METHODS 
 ====================
 print() -- displaying the output on screen/console.
-ord() chr() --> for ascii values/symobol
+ord() chr() --> for ascii values/symbols
 type() -- displays the datatype of a variable/value
 id() --> displays a memory address.
 
+len() --> displays number of characters
+
+
+DATATYPES
+===========
+int float str bool complex 
 
 int() float() complex() str() bool() 
 list() set() tuple() dict()
@@ -14,7 +32,7 @@ list() set() tuple() dict()
 COMMENTS 
 =================
 - piece of text explains code
-- makes code more  reable
+- makes code more  readble
 - In Python we have two types of comments 
 		#  --> single line comment
 		'''  '''
@@ -65,3 +83,8 @@ VARIABLES
 				
 			note: input() --> is str type 
 			
+			
+	note:
+	==============
+	1. while declaring decimal , we shouldn't give any prefix
+	

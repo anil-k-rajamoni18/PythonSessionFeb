@@ -1,0 +1,101 @@
+#####STRING ###########
+
+- group of individual or collections of characters
+- strings are immutable in python
+- Strings suppports indexing
+		+ve : 0 - N-1
+		-ve : -1 --> -N
+- String supports slicing also.
+- In Python Strings can be declared in 3 ways:
+
+		  - single quotes  'k'
+		  - double quotes   "dyamic programmic"
+		  - triple quotes (mainly used for multi-line strings)
+
+CONCATENATION
+========================
+	- we can use the + operator for string addition/combing 
+	notes:
+		1. str+str --> str
+			str+int/float--> Error
+			
+		2. str*int --> multiple the string
+			"hi"*10
+			str*str --> error
+			
+### FORMATING ########
+========================
+	- 3 ways 
+	===============
+		1. C based formatting by using format specifiers like
+			%s for strings
+			%d for integers
+			%f for float values
+			
+		2. str.format() 
+			name = "kumar"
+			print("hello {}".format(name))
+	
+	3. F String 
+			print(f"hello {name}")
+		- introduced from 3.6+
+		
+
+##ACCESSING & SLICING #######
+=====================================
+
+- In programming counting starts from zero. Therefore the first letter of a string is at zero index and the last letter of a string is the length of a string minus one.
+   strLang = "Python"
+   
+- INDEXING always starts from 0 --> N-1
+-> accessing invalid will raise Index Error
+	ex:
+		strLang = "Python"
+		print(strLang[0])
+		print(strLang[10]) #error , we don't have 10th index 
+		
+##SLICING##
+====================
+	- to extract specific of information
+	syntax:
+		[start,stop,step]
+	
+##METHODS ####
+============
+	regular methods:
+		- capitalize()
+			Python language
+		-count(char/sub-string)
+			- if found -- no of occurences
+			- else : 0
+		- endswith()
+		- startswith()
+		- expandtabs()
+		- find() - it return lowest index of a char/sub-string
+		- rfind() - it return highest index of a char/sub-string
+			-> if character/substring is not found in string it returns -1
+		index()
+		rindex()
+			-> if character/substring is not found in string it returns ValueError
+		title() - 
+		replace()
+		upper()
+		lower()
+	checking methods:
+================================
+		isalnum()
+		isalpha()
+		isdecimal()
+		isdigit()
+		isnumeric()
+		isidentifier()
+		islower()
+		isupper()
+	covertion methods
+====================================
+		split() : str --> list
+		join() : list --> str
+		
+		
+		
+		   

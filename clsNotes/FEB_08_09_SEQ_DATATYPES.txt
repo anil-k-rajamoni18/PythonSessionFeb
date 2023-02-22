@@ -1,6 +1,30 @@
 ##TODAY CLASS##
 =====================
 			
+ PRIMITIVE DATATYPES
+ ====================
+ int
+=============== 
+	a = 10
+	a = -10
+	
+ float
+ =============
+	f = 10.5
+	
+ str
+ =============
+	s = "python oops language"
+ bool
+ ============
+	b = False
+ complex
+ =============
+	c = 1+2j (real = 1 , imag = 2, j is constant)
+ 
+ None
+ 
+ 
  SEQUENTIAL DATATYPES
  ============================
 	LIST
@@ -17,6 +41,25 @@
 		- supports both hemo & hetro types.	
 		- syntax:
 			varName = [data1,data2,.....datan ]
+	
+		methods
+	###############
+		append(obj)
+		insert(loc,obj)
+		extend([obj1,obj2... objn]
+		pop(index=-1)
+		remove(element/value/obj)
+		copy()
+		clear()
+		sort() , sort(reversed=True)
+		count()
+		index()
+	observations
+	====================
+	1. accessing invalid +ve/-ve --> will raise Index Error
+	2. we can't apply pop() and remove() on empty list
+	3. using append() we can add only one data/value to the end of the list
+	
 			
 	TUPLE
 	=============================
@@ -34,6 +77,12 @@
 			note: index should be valid , otherwise raise IndexOutOfBoundException.
 		
 		- supports both hemo & hetro types.	
+		
+		- methods
+		===========
+			count()
+			index()
+			
 	
 	SET
 	========================================
@@ -44,10 +93,20 @@
 	syntax:
 		set_varname = {data,data2,....datan}
 		
+		methods
+		===========
+		add()
+		remove()
+		discard()
+		union()
+		intersection()
+		difference()
+		pop()
+		
 	
 	DICTIONARY
 	===========================================
-	- Collectional and unindexed 
+	- Collectional and unindexed & ordered
 	- It's stores data in the form of key:value
 	- supports indexing based on key names
 	- syntax:
@@ -58,6 +117,17 @@
 					
 				 keyn : valuen}
 	- keys should be unqiue and immutable datatype(str,tuple,int,float,complex,bool)
+	
+	=> METHODS
+	============
+	get()
+	keys()
+	values()
+	update()
+	items()
+	pop()
+	popitem()
+	
 	
 	
 	
