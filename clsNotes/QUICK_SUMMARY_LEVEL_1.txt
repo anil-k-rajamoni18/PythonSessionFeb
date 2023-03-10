@@ -1,0 +1,110 @@
+1. 
+	a = None 
+	print(type(a))
+	
+2. b = ""
+   print(len(b))
+   print(bool(b))
+   
+3. __name = "Kumar" ? Valid declaration
+
+
+
+QUICK SUMMARY 
+=======================
+===> Py2 vs Py3
+===> python syntax & identation
+===> print() 
+	attributes
+		value
+		sep
+		end 
+		file
+		flush
+===>comments 
+	- single # 
+	- multi-line ''' '''
+===> variables 
+		- intro 
+		- rules 
+		
+===> input() 
+
+===> prebuild methods 
+	- print() input() 
+	- type() dir() len() help() id()
+	- chr() ord() 
+	- bin() oct() hex()
+	- int() float() str() complex() bool() 
+	- list() tuple() set() dict()
+	
+===> Type Casting
+
+===>DataTypes
+	- Primitive
+	- Collectional/Sequential
+
+===> SEQUENTIAL DataTypes
+	==> LIST
+		- properties
+		- methods
+	==> Tuple
+	- properties
+	- methods
+	
+	==> Set
+	- properties
+	- methods
+	
+	==> Dictionary
+	- properties
+	- methods
+	
+==> Range() 
+	- start : 0
+	- stop : LEN-1
+	- step: 1
+	- step is excluded and mandatory
+	- syntax:
+		range(start,stop,step)
+		
+===> STRINGS
+	==>3ways
+		- single quotes 
+			name = 'kumar'
+			lang = 'p'
+		- double quotes
+			name = "python language"
+			
+		- triple quotes 
+			sentence = ''' 
+						The Indian insurance platform InsuranceDekho has raised $150 million in a Series A funding round as the more than a decade old firm eyes merger and 
+						acquisition opportunities at a time when the market slump has engulfed most startups in the South Asian nation.
+						'''
+						
+	==> concat 
+		
+	==> Formatting 
+		- c based formation
+		- str.format()
+		- f string (3.6+)
+		
+	==> ACCESSING 
+			- indexing starts from 0 -> N-1
+			- accessing invalid index raise IndexError
+			
+	== Methods 
+	
+	
+==> OPERATORS 
+	- Types 
+	- precendence and associativity.
+	
+	
+	
+	
+
+	
+	
+	
+	

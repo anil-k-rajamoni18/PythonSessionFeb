@@ -1,0 +1,65 @@
+###LOOPING STATEMENTS############
+========================================
+	process of executing set of instructions until some condition is reached.
+	
+	#TYPES
+		for loop
+			- when we know the number of iteration in advance.
+			- mainly use range(start,stop,step)
+			
+			syntax:
+				for var in sequence:
+					body
+			
+			sequence: list tuple set dictionary str range
+			- 2types:
+				==>print based for loop
+					- mainly used for printing or filtering
+					- we don't have access to index locations.
+					- we don't use range() method.
+					- we can apply on list tuple set dictionary str range
+				==>range based for loop
+					- we use range() method 
+					- we have control on indexes
+					- we mainly use for filtering/updation/deletion.
+					- we can apply on list tuple str range
+				
+		while loop
+		=================
+			- preferred when we don't no of iteration in advance.
+			- while loop will run as long as condition is false.
+			- In while loop we have to intialise and inc/dec index variable because there is no range support.
+			syntax:
+				index = 0
+				while (condition):
+					body
+					index+=1
+				
+				i = 5
+				while i>0:
+					print("loops")
+					i = i-1
+			- Can we apply while loop on all datatypes? list , tuple , str , set , dictionary.
+			
+					
+		
+		
+		looping statements
+		====================
+		break
+		continue 
+		pass
+		
+		NESTED LOOPS 
+		============
+			for:
+				for
+			for:
+				while
+			
+			while:
+				while
+			while:
+				for
+		
+	
